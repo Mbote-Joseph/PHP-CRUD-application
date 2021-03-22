@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0%;
+
+  padding: 0px;
+}
+.container {
+  max-width: 600px;
+  margin-right: 20% auto;
+  margin-left: 20% auto;
+  border: 3px solid #f2f2f2;
+  padding: 10px;
+}
+h2 {
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+}
+input[type="text"],
+input[type="email"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 50px;
+  border: 2px solid #ccc;
+}
+input[type="submit"] {
+  margin-top: 5px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: #fff;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f7f9;
+}
+a,
+a:visited {
+  color: #0077c8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
